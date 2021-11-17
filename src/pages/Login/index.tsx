@@ -8,7 +8,7 @@ export default function Login() {
       <Header />
       <S.Container>
         <h1>Login</h1>
-        <Button> ENTRAR </Button>
+          <Button>ENTRAR</Button>
       </S.Container>
     </div>
   );
