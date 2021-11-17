@@ -1,12 +1,11 @@
-
-
-import * as S from './styles';
+import * as S from "./styles";
+import Logo from "../../assets/Logo.svg";
 
 export default function Header() {
-
   return (
     <S.Container>
-      <h1>Hello</h1>
+   
+        <img src={Logo} alt="Logo" />
     </S.Container>
-  )
- }
+  );
+}
