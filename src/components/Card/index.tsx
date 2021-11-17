@@ -1,9 +1,7 @@
 import * as S from "./styles";
 
-export default function Card() {
-  return (
-    <S.Container>
-        <h1>Card</h1>
-    </S.Container>
-  );
-}
+const Card: React.FC = ({ children }) => (
+  <S.Container >{children}</S.Container>
+);
+
+export default Card;

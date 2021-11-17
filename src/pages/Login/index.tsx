@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
-import Button from '../../components/Button'
+import Button from "../../components/Button";
+import Card from "../../components/Card";
 import * as S from "./styles";
 
 export default function Login() {
@@ -8,7 +9,12 @@ export default function Login() {
       <Header />
       <S.Container>
         <h1>Login</h1>
-          <Button>ENTRAR</Button>
+        <S.Content>
+          <Card>
+            <h1>Card</h1>
+            <Button>ENTRAR</Button>
+          </Card>
+        </S.Content>
       </S.Container>
     </div>
   );
