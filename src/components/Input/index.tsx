@@ -1,11 +1,21 @@
-/* import * as S from "./styles"; */
+import React,{InputHTMLAttributes} from "react";
 
+import * as S from "./styles";
 
-export default function Input() {
-  return (
-    <h1>Input</h1>
-/*     <S.Container>
-        <img src={Logo} alt="Logo" />
-    </S.Container> */
-  );
+interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+  name: string;
 }
+
+const Input: React.FC<InputProps> = ({name, ...rest}) => {
+  return (
+    <>
+      <S.Container>
+        <input name={name}
+        {...rest}
+        />
+      </S.Container>
+    </>
+  );
+};
+
+export default Input;
