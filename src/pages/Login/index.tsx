@@ -12,7 +12,8 @@ export default function Login() {
         <h1>Login</h1>
         <S.Content>
           <Card>
-            <Input name="login" type="email" placeholder="teste"/>
+            <Input name="login" type="email" placeholder="teste" />
+          
             <Button>ENTRAR</Button>
           </Card>
         </S.Content>
