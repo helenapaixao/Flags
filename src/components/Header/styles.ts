@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background-color: #b6b6;
-display: block;
-    margin-left: auto;
-    margin-right: auto 
+  background-color: #ffff;
 
+  img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    align-items: center;
+    margin-top: 10px;
+  }
 `;
