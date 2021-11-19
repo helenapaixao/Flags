@@ -9,10 +9,10 @@ export default function Login() {
     <div>
       <Header />
       <S.Container>
-        <S.Title>Login</S.Title>
-        <S.Content>
+        <S.Title>LOGIN</S.Title>
+        <S.Content >
           <Card>
-            <Input name="login" type="email" placeholder="teste" />    
+            <Input name="login" type="email"  />    
             <Button>ENTRAR</Button>
           </Card>
         </S.Content>

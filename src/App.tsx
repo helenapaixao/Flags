@@ -1,7 +1,7 @@
 import React from 'react';
 
 import GlobalStyle from './styles/global';
-import Login from '../src/pages/Login';
+import Flags from '../src/pages/Flags';
 
 
 
@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <>
       <GlobalStyle />
-      <Login />
+      <Flags />
     </>
   );
 }
