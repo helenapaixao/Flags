@@ -18,17 +18,17 @@ export const Content = styled.div`
 
 export const FlagImage = styled.img`
  margin-left: -7px;
- /*  display: block;
- 
-  margin-left: auto;
-  margin-right: auto; */
 `;
 
 export const Footer = styled.div`
-  margin-top: 150px;
-  margin-left: 16px;
   text-align: center;
   display: flex;
+
+  h1 {
+   margin-right: 162px;
+    
+  }
+  
 `;
 
 export const Title = styled.h1`
