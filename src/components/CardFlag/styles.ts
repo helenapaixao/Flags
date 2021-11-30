@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #FFF;
+  background-color: #fff;
   height: 208px;
   width: 245px;
   padding: 16px;
@@ -10,12 +10,25 @@ export const Container = styled.div`
 export const Flag = styled.img`
   height: 166px;
   width: 229px;
-  
 `;
 
 export const Content = styled.div`
-text-align: center;
+  align-items: center;
+`;
 
+export const FlagImage = styled.img`
+ margin-left: -7px;
+ /*  display: block;
+ 
+  margin-left: auto;
+  margin-right: auto; */
+`;
+
+export const Footer = styled.div`
+  margin-top: 150px;
+  margin-left: 16px;
+  text-align: center;
+  display: flex;
 `;
 
 export const Title = styled.h1`
@@ -24,9 +37,7 @@ export const Title = styled.h1`
 `;
 
 export const Frame = styled.div`
-background-color: #FFFF;
-width: 96px;
-height: 18px;
-
+  background-color: #ffff;
+  width: 96px;
+  height: 18px;
 `;
-
