@@ -8,8 +8,6 @@ export const Container = styled.div`
   background-color:#E5E5E5;
   background-size: cover;
   background-repeat: no-repeat;
- 
-/*   filter: grayscale(100%); */
 `;
 
 export const Content = styled.div`

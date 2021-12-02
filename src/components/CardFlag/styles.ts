@@ -5,17 +5,16 @@ export const Container = styled.div`
   height: 208px;
   width: 245px;
   padding: 16px;
-   overflow: hidden;
+  overflow: hidden;
   position: relative;
-
 `;
 
 export const Flag = styled.img`
   width: 18px;
   height: 18px;
-   position: absolute;
+  position: absolute;
   top: 8px;
-  left: 8px;
+  left: 8px; 
 `;
 
 export const Content = styled.div`
@@ -29,28 +28,20 @@ export const FlagImage = styled.img`
 export const Footer = styled.div`
   text-align: center;
   display: flex;
-
   h1 {
-   margin-right: 162px;
-    
+   margin-right: 162px;   
   }
-  
 `;
 
 export const Title = styled.h1`
   color: #000000;
   width: 195px;
   font-size: 13px;
-  font-family: Nunito;
   font-weight: 400;
 `;
 
 export const Frame = styled.div`
-   background-color: #ffffff;
-/*   border-top-left-radius: 0;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 10px; */
+  background-color: #ffffff;
   width: 96px;
   height: 18px;
   position: absolute;
@@ -62,19 +53,17 @@ export const Frame = styled.div`
   padding-right: 6px;
   padding-top: 4px;
   padding-bottom: 4px;
-
   h1 {
-    color: #000000;
+  color: #000000;
   text-align: center;
   font-size: 10px;
-  font-family: Nunito;
   font-weight: 400;
   line-height: 10px;
   }
 `;
 
 export const Continent = styled.div`
-color: #000000;
+  color: #000000;
   text-align: center;
   font-size: 10px;
   font-family: Nunito;

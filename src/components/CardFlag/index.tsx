@@ -10,8 +10,8 @@ const CardFlag: React.FC = () => (
          <S.Frame>
         <S.Continent>SOUTH AMERICA</S.Continent>
           </S.Frame>
-          <S.Title>Brazil</S.Title>
-        <FaRegHeart size={18} color="#000" />
+          <S.Title>BRAZIL</S.Title>
+        <FaRegHeart size={28} color="#000" />
       </S.Footer>
     </S.Content>
   </S.Container>
