@@ -5,11 +5,17 @@ export const Container = styled.div`
   height: 208px;
   width: 245px;
   padding: 16px;
+   overflow: hidden;
+  position: relative;
+
 `;
 
 export const Flag = styled.img`
   width: 18px;
   height: 18px;
+   position: absolute;
+  top: 8px;
+  left: 8px;
 `;
 
 export const Content = styled.div`
