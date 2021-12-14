@@ -5,5 +5,5 @@ export const Container = styled.div`
   height: 120px;
   width: 300px;
   padding: 16px;
-  
+  margin-top: 20px;
 `;
