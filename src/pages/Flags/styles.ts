@@ -37,7 +37,7 @@ export const Title = styled.div`
 
 `;
 
-export const Menu = styled.h2`
+export const Menu = styled.div`
   color: #000;
   position: absolute;
   left: 50%;
@@ -47,4 +47,11 @@ export const Menu = styled.h2`
   font-size: 30px;
   font-size: 16px;
   text-align: center;
+  display: flex;
+
+  h1 {
+    font-size: 16px;
+    color: #ACACAC;
+    margin-left: 4px;
+  }
 `;

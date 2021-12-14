@@ -9,7 +9,7 @@ export default function Flags() {
       <Header />
       <S.Title><h1> THE </h1> GEOGRAPHY </S.Title>
       <S.Menu>
-        ALL / NORTH AMERICA / SOUTH AMERICA / AFRICA / EUROPE / ASIA / OCEANIA{" "}
+        ALL <h1>/ NORTH AMERICA / SOUTH AMERICA / AFRICA / EUROPE / ASIA / OCEANIA</h1>{" "}
       </S.Menu>
       <S.Container>
         <S.Content>
