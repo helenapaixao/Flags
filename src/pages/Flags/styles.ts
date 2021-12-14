@@ -23,15 +23,16 @@ export const Title = styled.div`
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -96px;
+  margin-left: -90px;
   margin-top: -310px;
   font-size: 30px;
   font-weight: bold;
   display: flex;
     font-size: 24px;
   h1 {
-    font-size: 24px;
+     font-size: 24px;
       font-weight: italic;
+      margin-right: 4px;
   }
 
 `;
