@@ -18,7 +18,7 @@ export const Content = styled.div`
   margin-top: -40px;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.div`
   color: #000;
   position: absolute;
   left: 50%;
@@ -27,6 +27,12 @@ export const Title = styled.h1`
   margin-top: -310px;
   font-size: 30px;
   font-weight: bold;
+  display: flex;
+    font-size: 24px;
+  h1 {
+    font-size: 24px;
+      font-weight: italic;
+  }
 
 `;
 
