@@ -5,7 +5,7 @@ export const Container = styled.div`
   background: url(${Background});
   fill: 8%;
   height: 100vh;
-  background-color:#E5E5E5;
+  background-color: #e5e5e5;
   background-size: cover;
   background-repeat: no-repeat;
 `;
@@ -23,7 +23,21 @@ export const Title = styled.h1`
   position: absolute;
   left: 50%;
   top: 50%;
-  align-items: center;
-  margin-bottom: 335px;
-  margin-top: -80px;
+  margin-left: -80px;
+  margin-top: -540px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+`;
+
+export const Menu = styled.h2`
+  color: #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -500px;
+  font-size: 30px;
+  font-size: 16px;
+  text-align: center;
 `;

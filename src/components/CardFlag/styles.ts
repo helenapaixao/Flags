@@ -19,6 +19,7 @@ export const Flag = styled.img`
 
 export const Content = styled.div`
   align-items: center;
+ 
 `;
 
 export const FlagImage = styled.img`
@@ -26,11 +27,10 @@ export const FlagImage = styled.img`
 `;
 
 export const Footer = styled.div`
-  text-align: center;
   display: flex;
-  h1 {
-   margin-right: 162px;   
-  }
+
+
+  
 `;
 
 export const Title = styled.h1`
@@ -66,7 +66,6 @@ export const Continent = styled.div`
   color: #000000;
   text-align: center;
   font-size: 10px;
-  font-family: Nunito;
   font-weight: 400;
   line-height: 10px;
 `;

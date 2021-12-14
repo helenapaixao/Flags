@@ -7,6 +7,10 @@ export default function Flags() {
   return (
     <div>
       <Header />
+      <S.Title>THE geography</S.Title>
+      <S.Menu>
+        ALL / NORTH AMERICA / SOUTH AMERICA / AFRICA / EUROPE / ASIA / OCEANIA{" "}
+      </S.Menu>
       <S.Container>
         <S.Content>
           <CardFlag />

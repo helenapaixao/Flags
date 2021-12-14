@@ -24,6 +24,6 @@ export const Title = styled.h1`
   left: 50%;
   top: 50%;
   align-items: center;
-  margin-bottom: 335px;
+  margin-bottom: -335px;
   margin-top: -80px;
 `;
