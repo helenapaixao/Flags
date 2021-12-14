@@ -11,9 +11,8 @@ const CardFlag: React.FC = () => (
           <S.Continent>SOUTH AMERICA</S.Continent>
         </S.Frame>
         <S.Title>BRAZIL</S.Title>
-              <FaRegHeart size={18} color="#000" />
+        <FaRegHeart size={16} color="#000" />
       </S.Footer>
-
     </S.Content>
   </S.Container>
 );

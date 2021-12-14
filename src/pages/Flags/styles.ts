@@ -23,11 +23,11 @@ export const Title = styled.h1`
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -80px;
-  margin-top: -540px;
+  margin-left: -96px;
+  margin-top: -310px;
   font-size: 30px;
   font-weight: bold;
-  text-align: center;
+
 `;
 
 export const Menu = styled.h2`
@@ -35,8 +35,8 @@ export const Menu = styled.h2`
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -400px;
-  margin-top: -500px;
+   margin-left: -286px; 
+  margin-top: -260px;
   font-size: 30px;
   font-size: 16px;
   text-align: center;
