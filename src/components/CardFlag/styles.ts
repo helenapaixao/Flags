@@ -28,9 +28,6 @@ export const FlagImage = styled.img`
 
 export const Footer = styled.div`
   display: flex;
-
-
-  
 `;
 
 export const Title = styled.h1`
