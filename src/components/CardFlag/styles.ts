@@ -62,6 +62,7 @@ export const Frame = styled.div`
 export const Continent = styled.div`
   color: #000000;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   font-weight: 400;
   line-height: 10px;

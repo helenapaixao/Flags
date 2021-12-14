@@ -7,7 +7,10 @@ export default function Flags() {
   return (
     <div>
       <Header />
-      <S.Title><h1> THE </h1> GEOGRAPHY </S.Title>
+      <S.Title>
+        <h1> THE </h1>
+        GEOGRAPHY
+      </S.Title>
       <S.Menu>
         ALL <h1>/ NORTH AMERICA / SOUTH AMERICA / AFRICA / EUROPE / ASIA / OCEANIA</h1>{" "}
       </S.Menu>
